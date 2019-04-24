@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddPerangkat.AddActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tvJenisAdd"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Jenis Perangkat"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="10dp"/>
+
+            <TextView
+                android:id="@+id/tvInvAdd"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Nomor Inventaris"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="10dp"/>
+            <TextView
+                android:id="@+id/tvMerkAdd"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Merk Perangkat"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="10dp"/>
+            <TextView
+                android:id="@+id/tvTahunAdd"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tahun Pasang"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="10dp"/>
+            <TextView
+                android:id="@+id/tvRuangAdd"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="No ruangan"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="10dp"/>
+            <TextView
+                android:id="@+id/tvLantaiAdd"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Lantai "
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="10dp"/>
+            <TextView
+                android:id="@+id/tvGedungAdd"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Gedung"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="27dp"
+                android:layout_marginEnd="10dp"/>
+            <TextView
+                android:id="@+id/tvKawasanAdd"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Kawasan"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="10dp"/>
+            <TextView
+                android:id="@+id/tvStatusPAdd"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Status"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="10dp"/>
+            <TextView
+                android:id="@+id/tvKeteranganAdd"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Keterangan"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="10dp"/>
+            <TextView
+                android:id="@+id/tvFotoAdd"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Foto"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="10dp"/>
+
+            <TextView
+                android:id="@+id/tvMapsAdd"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Lokasi Maps"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="305dp"
+                android:layout_marginEnd="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/etAddJenis"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="17dp"
+                android:padding="3dp"
+                android:paddingStart="10dp"
+                android:ems="10"
+                android:background="@drawable/et_bg_black"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/etAddNo_inv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="14dp"
+                android:padding="3dp"
+                android:paddingStart="10dp"
+                android:ems="10"
+                android:background="@drawable/et_bg_black"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/etAddMerk"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="14dp"
+                android:padding="3dp"
+                android:paddingStart="10dp"
+                android:ems="10"
+                android:background="@drawable/et_bg_black"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/etAddTh_dipa"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="14dp"
+                android:padding="3dp"
+                android:paddingStart="10dp"
+                android:ems="10"
+                android:background="@drawable/et_bg_black"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/etAddLok_no_ruang"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="14dp"
+                android:padding="3dp"
+                android:paddingStart="10dp"
+                android:ems="10"
+                android:background="@drawable/et_bg_black"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/etAddLok_lantai"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="14dp"
+                android:padding="3dp"
+                android:paddingStart="10dp"
+                android:ems="10"
+                android:background="@drawable/et_bg_black"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/etAddLok_gedung"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:padding="3dp"
+                android:paddingStart="10dp"
+                android:layout_marginTop="14dp"
+                android:ems="10"
+                android:background="@drawable/et_bg_black"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/etAddLok_kawasan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:padding="3dp"
+                android:paddingStart="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="14dp"
+                android:ems="10"
+                android:background="@drawable/et_bg_black"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/etAddStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:padding="3dp"
+                android:paddingStart="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="14dp"
+                android:ems="10"
+                android:background="@drawable/et_bg_black"
+                android:inputType="textPersonName" />
+            <EditText
+                android:id="@+id/etAddKeterangan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="14dp"
+                android:padding="3dp"
+                android:paddingStart="10dp"
+                android:ems="10"
+                android:background="@drawable/et_bg_black"
+                android:inputType="textPersonName"/>
+
+            <ImageView
+                android:id="@+id/previewAdd"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="15dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_launcher_background" />
+
+            <Button
+                android:id="@+id/Pick_Image_Add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="5dp"
+                android:text="Opsi Gambar"
+                android:paddingStart="9dp"
+                android:paddingEnd="9dp"
+                android:padding="3dp"
+                android:background="@drawable/btn_bg_black"
+                android:layout_gravity="center_horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/previewAdd" />
+
+            <TextView
+                android:id="@+id/tvLokasiMaps"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:ems="10"
+                android:text="Maps" />
+
+            <TextView
+                android:id="@+id/tvPlaceAddress"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:ems="10"/>
+
+            <Button
+                android:id="@+id/btnLokasi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="16dp"
+                android:text="Get Lokasi"
+                android:background="@drawable/btn_bg_black"/>
+            <Button
+                android:id="@+id/btnAdd"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="16dp"
+                android:text="Tambah Perangkat"
+                android:background="@drawable/btn_bg_black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Spinner
+                android:id="@+id/spinner_jenis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:padding="1dp"
+                android:spinnerMode="dialog"/>
+
+            <Spinner
+                android:id="@+id/spinner_merk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="65dp"
+                android:padding="1dp"
+                android:spinnerMode="dialog"/>
+
+            <Spinner
+                android:id="@+id/spinner_kawasan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="197dp"
+                android:padding="1dp"
+                android:spinnerMode="dialog"/>
+
+            <Spinner
+                android:id="@+id/spinner_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:padding="1dp"
+                android:spinnerMode="dialog"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:padding="5dp"
+    android:layout_marginTop="3dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    card_view:cardCornerRadius="15dp"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/ivList"
+            android:padding="5dp"
+	        android:scaleType="fitXY"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Jenis"
+            android:id="@+id/tvJenis"
+            android:padding="5dp"
+            android:textColor="@color/colorAccent"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/ivList"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ivList"
+            android:layout_marginLeft="1dp"
+            android:layout_marginBottom="82dp"
+            android:layout_toRightOf="@+id/ivList"
+            android:padding="5dp"
+            android:text="Status"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/tvNoRuang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ivList"
+            android:layout_marginLeft="-2dp"
+            android:layout_marginBottom="52dp"
+            android:layout_toRightOf="@+id/ivList"
+            android:padding="5dp"
+            android:text="No Ruang : "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/tvNoRuang2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ivList"
+            android:layout_marginLeft="-2dp"
+            android:layout_marginBottom="52dp"
+            android:layout_toRightOf="@+id/tvNoRuang"
+            android:padding="5dp"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/tvLantai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ivList"
+            android:layout_marginLeft="0dp"
+            android:layout_marginBottom="33dp"
+            android:layout_toRightOf="@+id/ivList"
+            android:padding="5dp"
+            android:text="Lantai : "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/tvLantai2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ivList"
+            android:layout_marginLeft="0dp"
+            android:layout_marginBottom="33dp"
+            android:layout_toRightOf="@+id/tvLantai"
+            android:padding="5dp"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/tvGedung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ivList"
+            android:layout_marginLeft="0dp"
+            android:layout_marginBottom="13dp"
+            android:layout_toRightOf="@+id/ivList"
+            android:padding="5dp"
+            android:text="Gedung : "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/tvGedung2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ivList"
+            android:layout_marginLeft="0dp"
+            android:layout_marginBottom="13dp"
+            android:layout_toRightOf="@+id/tvGedung"
+            android:padding="5dp"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/tvKawasan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ivList"
+            android:layout_marginLeft="1dp"
+            android:layout_marginBottom="-5dp"
+            android:layout_toRightOf="@+id/ivList"
+            android:padding="5dp"
+            android:text="Kawasan : "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/tvKawasan2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ivList"
+            android:layout_marginLeft="1dp"
+            android:layout_marginBottom="-5dp"
+            android:layout_toRightOf="@+id/tvKawasan"
+            android:padding="5dp"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

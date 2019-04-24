@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!-- Tambahan warna -->
+    <color name="backgroundColor">#FCFCFC</color>
+    <color name="lightgray">#EDEDED</color>
+    <color name="deepPurple">#3F51B5</color>
+    <color name="yellow">#FFB300</color>
+    <color name="green">#2BC764</color>
+
+    <!-- Warna buat Login -->
+    <color name="white">#fff</color>
+    <color name="transparant">#00000000</color>
+    <color name="gradientStart">#19aa8b</color>
+    <color name="gradientEnd">#23a7d8</color>
+</resources>

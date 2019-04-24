@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="uploadImages">
+        <item>Click from camera</item>
+        <item>Remove image</item>
+    </string-array>
+
+    <string-array name="itemIds">
+        <item>camera_image</item>
+        <item>remove_image</item>
+    </string-array>
+
+    <string-array name="sp_jenis">
+        <item> </item>
+        <item>  AP - Access Point</item>
+        <item>CONV - Media Converter</item>
+        <item>  HS - Hardisk Server</item>
+        <item> RAK - Rak Media Converter</item>
+        <item> ROU - Router</item>
+        <item> SRV - Server</item>
+        <item>SWCM - Switch Managable</item>
+        <item>SWCU - Switch Unmanagable</item>
+        <item>  TV - Televisi</item>
+        <item> UPS - Uninterruptible Power Supply</item>
+        <item>  VC - Video Conference</item>
+    </string-array>
+
+    <string-array name="sp_kawasan">
+        <item> </item>
+        <item>BDG - Bandung</item>
+        <item>CPN - Cipanas</item>
+        <item>JGJ - Jogjakarta</item>
+        <item>JKT - Jakarta</item>
+        <item>JPR - Jepara</item>
+        <item>PSJ - Pasar Jumat</item>
+        <item>SRP - Serpong</item>
+    </string-array>
+
+    <string-array name="sp_merk">
+        <item> </item>
+        <item>001  - Allied Telesis</item>
+        <item>002  - TP-LINK</item>
+        <item>003  - LINKSYS</item>
+        <item>004  - 3COM</item>
+        <item>005  - PROCURVE</item>
+        <item>006  - EngeNius</item>
+        <item>007  - Ubiquity</item>
+        <item>008  - TOTOLINK</item>
+        <item>010  - LIFESIZE</item>
+        <item>011  - CHINA</item>
+        <item>012  - Mikrotik</item>
+        <item>013  - CISO</item>
+        <item>014  - H3C</item>
+        <item>015  - Flextreme</item>
+        <item>016  - SENAO</item>
+        <item>017  - TrendNet</item>
+        <item>018  - D-LINK</item>
+        <item>019  - Samsung</item>
+        <item>020  - Sharp</item>
+        <item>021  - Polytron</item>
+        <item>022  - LG</item>
+        <item>023  - Sony</item>
+        <item>024  - ASUSTOR</item>
+        <item>026  - HP Proilant</item>
+        <item>027  - APC Smart</item>
+        <item>028  - HP</item>
+        <item>029  - ASUS</item>
+    </string-array>
+
+    <string-array name="sp_status">
+        <item> </item>
+        <item>PSG - Terpasang</item>
+        <item>RSK - Rusak</item>
+        <item>STK - Stok</item>
+    </string-array>
+
+</resources>
